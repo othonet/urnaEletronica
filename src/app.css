@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDD;
+    margin: 0 auto;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(124, 99, 148);
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+header h1{
+    color: #fff;
+    margin-top: -10px;
+}
+
+.urna{
+    background-color: #CCC;
+    width: 70%;
+    height: 600px;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.tela{
+    background-color: #f3fafd;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nomeCand{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomeCand h2{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.nomeCand p{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.numCand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.numCand input[type=text]{
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    margin-left: 5px;
+    border: 2px solid #333;
+    font-size: 35px;
+    background-color: transparent;
+}
+
+.fotoCandidato img{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #333;
+    filter: grayscale(1);
+}
+
+.teclado{
+    background-color: #333;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 80px;
+    height: 80px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #777;
+    color: #EEE;
+}
+
+button:active{
+    opacity: 0.8;
+}
+
+.quinta button{
+    width: 120px;
+    height: 70px;
+    margin: 6px;
+    font-size: 18px;
+}
+
+.container footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #666;
+}
