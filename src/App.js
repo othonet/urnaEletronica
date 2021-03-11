@@ -46,7 +46,7 @@ export default function App() {
     {
       id: 1,
       nome: 'Jair Bolsonaro',
-      numero: '17',
+      numero: '38',
       partido: 'Aliança pelo Brasil',
       img: 'https://exame.com/wp-content/uploads/2018/09/bolsoemotivo1.jpg'
     },
@@ -54,16 +54,16 @@ export default function App() {
     {
       id: 2,
       nome: 'João Dória',
-      numero: '24',
-      partido: 'LGBT',
+      numero: '45',
+      partido: 'PSDB',
       img: 'https://extra.globo.com/incoming/24560772-389-cd8/w488h275-PROP/doria.jpg'
     },
 
     {
       id: 3,
       nome: 'Sérgio Moro',
-      numero: '11',
-      partido: '...',
+      numero: '25',
+      partido: 'DEM',
       img: 'https://www.ictq.com.br/images/3-licoes-do-juiz-sergio-moro-para-farmaceuticos.jpg'
     },
 
@@ -71,7 +71,7 @@ export default function App() {
       id: 4,
       nome: 'Lula',
       numero: '13',
-      partido: 'Perda Total - PT',
+      partido: 'PT',
       img: 'https://static.poder360.com.br/2018/04/Lula-SergioLima-9out2017_-868x644.jpeg'
     },
   ]
