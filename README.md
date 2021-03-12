@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Candidatos e seus respectivos números
+#### Bolsonaro = 38
+#### Dória = 45
+#### Sérgio Moro = 25
+#### Lula = 13
+
 ## Available Scripts
 
 In the project directory, you can run:
